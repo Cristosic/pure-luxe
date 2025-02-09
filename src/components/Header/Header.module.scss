@@ -1,0 +1,88 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin: 118px 0;
+  height: 791px;
+
+  .headerContainer {
+    background-image: url("../../media/images/backgroundHeader.png");
+    background-repeat: no-repeat;
+    background-size: 100%; /* Подгоняем размеры */
+
+    width: 100%;
+    position: relative;
+
+    &__h1 {
+      font-family: "Caviar Dreams";
+      font-weight: 700;
+      font-size: 110px;
+      line-height: 121px;
+      text-transform: uppercase;
+      max-width: 1195px;
+
+      > span {
+        color: #d8320f;
+      }
+    }
+
+    &__imgCircle {
+      position: absolute;
+      top: 0;
+      right: 56px;
+      width: 92px;
+      height: 92px;
+    }
+
+    &__img {
+      width: 1228px;
+      height: 565px;
+      margin-left: 176px;
+      margin-right: 199px;
+      z-index: 10;
+    }
+
+    &__span1 {
+      position: absolute;
+      top: 30%;
+      right: 27%;
+      font-family: "Avenir LT Pro";
+      font-weight: 400;
+      font-size: 200px;
+      line-height: 220px;
+      text-transform: uppercase;
+      color: #FFFFFF4D;
+      z-index: 1;
+
+    }
+
+    &__span2 {
+      position: absolute;
+      top: 55%;
+      right: 7%;
+      font-family: "Avenir LT Pro";
+      font-weight: 400;
+      font-size: 200px;
+      line-height: 220px;
+      text-transform: uppercase;
+      color: #FFFFFF4D;
+      transform: rotate(90deg);
+    }
+
+    .ourResults {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+
+      &__div {
+        h4 {
+          color: #d8320f;
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}

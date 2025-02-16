@@ -2,13 +2,14 @@ header {
   display: flex;
   justify-content: center;
   margin: 118px 0;
-  height: 791px;
+  min-height: 950px;
+  width: 100%;
+
+  background-image: url("../../media/images/backgroundHeader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .headerContainer {
-    background-image: url("../../media/images/backgroundHeader.png");
-    background-repeat: no-repeat;
-    background-size: 100%; /* Подгоняем размеры */
-
     width: 100%;
     position: relative;
 
@@ -37,34 +38,32 @@ header {
       width: 1228px;
       height: 565px;
       margin-left: 176px;
-      margin-right: 199px;
       z-index: 10;
     }
 
     &__span1 {
       position: absolute;
-      top: 30%;
-      right: 27%;
+      top: 28%;
+      right: 31%;
       font-family: "Avenir LT Pro";
       font-weight: 400;
       font-size: 200px;
       line-height: 220px;
       text-transform: uppercase;
-      color: #FFFFFF4D;
+      color: #ffffff4d;
       z-index: 1;
-
     }
 
     &__span2 {
       position: absolute;
-      top: 55%;
-      right: 7%;
+      top: 45%;
+      right: 12%;
       font-family: "Avenir LT Pro";
       font-weight: 400;
       font-size: 200px;
       line-height: 220px;
       text-transform: uppercase;
-      color: #FFFFFF4D;
+      color: #ffffff4d;
       transform: rotate(90deg);
     }
 
@@ -72,17 +71,34 @@ header {
       display: flex;
       align-items: center;
       gap: 80px;
+      margin-left: 175px;
 
       &__div {
+        display: inline;
+        gap: 8px;
+
         h4 {
           color: #d8320f;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 33px;
+          text-align: center;
+          text-transform: uppercase;
         }
+
         p {
           font-weight: 400;
           font-size: 16px;
           line-height: 22px;
         }
       }
+    }
+
+    &__button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 50px;
     }
   }
 }

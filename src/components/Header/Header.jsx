@@ -2,9 +2,6 @@ import React from "react";
 import styles from "./Header.module.scss";
 import headerSofa from "../../media/images/headerSofa.png";
 import Button from "../Button/Button";
-import buttonPart from "../../media/images/buttonPart.svg";
-import circlePart from "../../media/images/circlePart.svg";
-import qr from "../../media/images/qr.svg";
 import headerCircle from "../../media/images/headerCircle.svg";
 
 export default function Header() {
@@ -50,9 +47,6 @@ export default function Header() {
         </div>
         <div className={styles.headerContainer__button}>
           <Button to="/categories">Catalogue</Button>
-          <img src={buttonPart} alt="button part" />
-          <img src={circlePart} alt="circlep part" />
-          <img src={qr} alt="qr" />
         </div>
       </div>
     </header>

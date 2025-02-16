@@ -4,52 +4,52 @@
   align-items: center;
   padding: 0;
   margin: 0;
-}
 
-.buttonText {
-  padding: 16px 64px;
-  border-radius: 100px;
-  background-color: #d8320f;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin: 0;
-  position: relative; 
-  z-index: 1;
-  margin-right: 61px;
-}
+  .buttonText {
+    padding: 16px 64px;
+    border-radius: 100px;
+    background-color: #d8320f;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    margin-right: 61px;
+  }
 
-.part {
-  width: 25px;
-  height: 18px;
-  background-color: #d8320f;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  right: 37px;
-  transform: translateY(-50%); /* Центрируем по вертикали */
-  z-index: 0;
-}
+  .part {
+    width: 25px;
+    height: 18px;
+    background-color: #d8320f;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 37px;
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    z-index: 0;
+  }
 
-.buttonCircle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #d8320f;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%); /* Центрируем по вертикали */
-  z-index: 0;
-}
+  .buttonCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #d8320f;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    z-index: 0;
+  }
 
-.buttonIcon {
-  width: 50%;
-  height: 50%;
-  display: block; /* Убираем пробелы */
+  .buttonIcon {
+    width: 50%;
+    height: 50%;
+    display: block; /* Убираем пробелы */
+  }
 }

@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 125px;
+
+  &__content {
+    min-height: 863px;
+    display: grid;
+    grid-template-columns: 625px 800px 455px;
+
+    /* Устанавливаем порядок элементов */
+    grid-template-areas:
+      "a b c"
+      "a d c";
+
+    gap: 20px;
+
+    &__card {
+      position: relative;
+    }
+
+    &__card:nth-child(1) {
+      grid-area: a;
+
+      background-image: url("../../media/whyChoseUsImg/image1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h3 {
+        padding-top: 16px;
+      }
+
+      p {
+        position: absolute;
+        bottom: 16px;
+        right: 0;
+        max-width: 470px;
+      }
+    }
+
+    &__card:nth-child(2) {
+      grid-area: b;
+
+      background-image: url("../../media/whyChoseUsImg/image2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h3 {
+        padding-top: 16px;
+        text-align: end;
+      }
+
+      p {
+        position: absolute;
+        bottom: 16px;
+        left: 0;
+        max-width: 505px;
+      }
+    }
+
+    &__card:nth-child(3) {
+      grid-area: c;
+
+      background-image: url("../../media/whyChoseUsImg/image3.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h3 {
+        padding-top: 16px;
+        text-align: end;
+      }
+
+      p {
+        position: absolute;
+        bottom: 16px;
+        left: 0;
+        max-width: 307px;
+      }
+    }
+
+    &__card:nth-child(4) {
+      grid-area: d;
+
+      background-image: url("../../media/whyChoseUsImg/image4.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h3 {
+        padding-top: 16px;
+      }
+
+      p {
+        position: absolute;
+
+        bottom: 16px;
+        left: 20%;
+        max-width: 495px;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  margin: 0 50px 125px 50px;
+
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}

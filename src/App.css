@@ -27,6 +27,10 @@ h2 {
 
   > span {
     color: #d8320f;
+    font-family: "Caviar Dreams";
+    font-weight: 500;
+    font-size: 94px;
+    line-height: 103px;
   }
 }
 
@@ -39,7 +43,20 @@ h3 {
 
   > span {
     color: #d8320f;
+    font-family: "Caviar Dreams";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 37px;
   }
+}
+
+h4 {
+  color: #000000;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 p {

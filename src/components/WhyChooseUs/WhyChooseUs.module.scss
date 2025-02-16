@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin-bottom: 125px;
+  margin: 0 50px 125px 50px;
 
   &__content {
     min-height: 863px;
     display: grid;
-    grid-template-columns: 625px 800px 455px;
+    grid-template-columns: 630px 690px 460px;
 
     /* Устанавливаем порядок элементов */
     grid-template-areas:
@@ -35,7 +35,7 @@
         position: absolute;
         bottom: 16px;
         right: 0;
-        max-width: 470px;
+        max-width: 480px;
       }
     }
 
@@ -55,7 +55,7 @@
         position: absolute;
         bottom: 16px;
         left: 0;
-        max-width: 505px;
+        max-width: 485px;
       }
     }
 
@@ -75,7 +75,7 @@
         position: absolute;
         bottom: 16px;
         left: 0;
-        max-width: 307px;
+        max-width: 327px;
       }
     }
 
@@ -94,8 +94,8 @@
         position: absolute;
 
         bottom: 16px;
-        left: 20%;
-        max-width: 495px;
+        left: 25%;
+        max-width: 445px;
       }
     }
   }

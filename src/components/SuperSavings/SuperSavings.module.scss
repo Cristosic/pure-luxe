@@ -1,0 +1,38 @@
+.container {
+  margin: 0 50px 125px;
+  width: 95%;
+  min-height: 825px;
+
+  background-image: url("../../media/images/superSavingBackground.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  position: relative;
+
+  &__imgCircle {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: 122px;
+    height: 122px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 337px;
+    width: 100%;
+
+    padding-top: 200px;
+
+    &__title {
+      margin-bottom: 24px;
+      text-align: left;
+    }
+
+    &__paragraph {
+      margin-bottom: 30px;
+    }
+  }
+}

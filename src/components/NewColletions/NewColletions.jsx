@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./NewColletions.module.scss";
 import SmallCard from "../SmallCard/SmallCard";
 import BigCard from "../BigCard/BigCard";
+import bigCardBackground from "../../media/images/bigCardBackground.svg";
+import bigCardBackgroundGray from "../../media/images/bigCardBackgroundGray.svg";
 
 export default function NewColletions() {
   return (
@@ -10,12 +12,12 @@ export default function NewColletions() {
         New <span>Collections</span>
       </h2>
       <div className={styles.container__grid}>
-        <SmallCard />
-        <BigCard />
-        <SmallCard />
-        <SmallCard />
-        <SmallCard />
-        <BigCard />
+        <SmallCard discount="-10%" />
+        <BigCard backgroundImage={bigCardBackground} />
+        <SmallCard discount="NEW" backgroundColor="#474646" />
+        <SmallCard discount="NEW" backgroundColor="#474646" />
+        <SmallCard discount="-10%" />
+        <BigCard backgroundImage={bigCardBackgroundGray} />
       </div>
     </div>
   );

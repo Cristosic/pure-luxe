@@ -4,9 +4,12 @@ import heartIcon from "../../media/icons/heartIcon.svg";
 import cartIcon from "../../media/icons/cartIcon.svg";
 import productImg2 from "../../media/images/productimg2.png";
 
-export default function BigCard() {
+export default function BigCard({ backgroundImage }) {
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{ backgroundImage: `url(${backgroundImage})` }} // Динамический фон
+    >
       <div className={styles.container__iconsAndDiscount}>
         <div className={styles.container__iconsAndDiscount__icons}>
           <img src={heartIcon} alt="heart icon" />

@@ -4,7 +4,7 @@ import heartIcon from "../../media/icons/heartIcon.svg";
 import cartIcon from "../../media/icons/cartIcon.svg";
 import productImg from "../../media/images/productImg.png";
 
-export default function SmallCard() {
+export default function SmallCard({ discount = -10, backgroundColor }) {
   return (
     <div className={styles.container}>
       <div className={styles.container__iconsAndDiscount}>
@@ -12,7 +12,12 @@ export default function SmallCard() {
           <img src={heartIcon} alt="heart icon" />
           <img src={cartIcon} alt="cart icon" />
         </div>
-        <div className={styles.container__iconsAndDiscount__discount}>-10%</div>
+        <div
+          className={styles.container__iconsAndDiscount__discount}
+          style={{ backgroundColor: backgroundColor || "#d8320f" }}
+        >
+          {discount}
+        </div>
       </div>
       <img
         src={productImg}

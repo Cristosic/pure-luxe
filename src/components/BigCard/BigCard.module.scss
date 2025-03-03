@@ -1,0 +1,55 @@
+.container {
+  //   max-width: 734px;
+  width: 100%;
+  height: 267px;
+  border-radius: 30px;
+
+  position: relative;
+
+  background-image: url("../../media/images/bigCardBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__iconsAndDiscount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icons {
+      padding: 22px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    &__discount {
+      background-color: #d8320f;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 30px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  &__product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+    padding: 0 22px;
+    width: 100%;
+  }
+}

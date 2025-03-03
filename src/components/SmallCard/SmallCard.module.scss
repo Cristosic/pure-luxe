@@ -1,0 +1,49 @@
+.container {
+  // max-width: 351px;
+  width: 100%;
+  height: 267px;
+  border-radius: 30px;
+
+  background-image: url("../../media/images/smallCardBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__iconsAndDiscount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icons {
+      padding: 22px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    &__discount {
+      background-color: #d8320f;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 30px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  &__product {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 22px;
+  }
+}

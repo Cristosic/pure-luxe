@@ -1,0 +1,40 @@
+.container {
+  margin: 0 50px 125px;
+
+  &__title {
+    margin-bottom: 60px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 32px;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+
+    & > :nth-child(1) {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+    & > :nth-child(2) {
+      grid-column: span 2;
+      grid-row: span 1;
+    }
+    & > :nth-child(3) {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+    & > :nth-child(4) {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+    & > :nth-child(5) {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+    & > :nth-child(6) {
+      grid-column: span 2;
+      grid-row: span 1;
+    }
+  }
+}

@@ -5,6 +5,7 @@ import CategoryContainer from "../../components/CategoryContainer/CategoryContai
 import SuperSavings from "../../components/SuperSavings/SuperSavings";
 import NewColletions from "../../components/NewColletions/NewColletions";
 import PromoBanner from "../../components/PromoBanner/PromoBanner";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 export default function MainPage() {
   return (
@@ -15,6 +16,7 @@ export default function MainPage() {
       <SuperSavings />
       <NewColletions />
       <PromoBanner />
+      <Testimonials />
     </div>
   );
 }

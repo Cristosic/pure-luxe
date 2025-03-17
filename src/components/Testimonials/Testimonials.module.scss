@@ -1,0 +1,76 @@
+.container {
+  margin-bottom: 125px;
+  position: relative;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__arrowLeft,
+  &__arrowRight {
+    width: 89px;
+    height: 89px;
+    padding: 26px;
+    background-color: #fdd697;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  &__arrowLeft {
+    position: absolute;
+    top: 22%;
+    left: 11%;
+  }
+  &__arrowRight {
+    position: absolute;
+    bottom: 1%;
+    right: 11%;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1055px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 88px;
+
+    background-image: url("../../media/images/rewiewsCardBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__information {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 34px;
+
+      &__container {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      &__reviewsStars {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      &__rating {
+        font-family: "Caviar Dreams";
+        font-weight: 700;
+        font-size: 34px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

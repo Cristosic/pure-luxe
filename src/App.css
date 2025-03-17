@@ -17,6 +17,25 @@ main {
   margin: 0 auto;
 }
 
+h1 {
+  font-family: "Caviar Dreams";
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 110%;
+  text-align: center;
+  text-transform: uppercase;
+
+  > span {
+    color: #d8320f;
+    font-family: "Caviar Dreams";
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
 h2 {
   font-family: "Caviar Dreams";
   font-weight: 500;
@@ -55,6 +74,15 @@ h4 {
   font-weight: 400;
   font-size: 30px;
   line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: #2a2a2a;
+  font-family: "Caviar Dreams";
+  font-weight: 700;
+  font-size: 22px;
   text-align: center;
   text-transform: uppercase;
 }

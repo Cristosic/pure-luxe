@@ -1,0 +1,23 @@
+.container {
+  margin: 0 50px 125px;
+  padding: 50px 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  position: relative;
+
+  &__img {
+    img {
+      width: 931px;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    top: 51%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    max-width: 628px;
+  }
+}
